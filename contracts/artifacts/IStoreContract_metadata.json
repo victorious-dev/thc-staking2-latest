@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenAddress",
+						"type": "address"
+					}
+				],
+				"name": "withDraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DMToken.sol": "IStoreContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DMToken.sol": {
+			"keccak256": "0x77d5e00804f6d9e4aaec3169bbb639494c4a6c1ff1f9341b28d03ad3bf60ba67",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://3fb3a2f7786d7cc60abb3456449015275211814c63043e8783bd45fb1ef3f359",
+				"dweb:/ipfs/QmToQQzfJMwruVpyC9rtViwVkyxTRvsqxC7kXq486H5syL"
+			]
+		}
+	},
+	"version": 1
+}

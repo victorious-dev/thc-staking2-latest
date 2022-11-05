@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newMinter",
+						"type": "address"
+					}
+				],
+				"name": "setMinter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DeployOthers.sol": "IDMToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DeployOthers.sol": {
+			"keccak256": "0x6b2aad175b700e0acae432d29338f5f1ae715fc752244b0f09271c4745749c41",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://9d2bb2cc74ef8badbff920ac4dfcdd59a9cbfb92198ddb7e4aea50cf5041e5a0",
+				"dweb:/ipfs/QmbjXiFCTVn4QhY9iXY49HGFgtrzDwdHkeDrN5NHxEN39H"
+			]
+		},
+		"ERC20.sol": {
+			"keccak256": "0x61d8a65d982a75374e9b2a66f8c5155706e90b2be978d95119b59749b76032ff",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fcfadddf2b4d985252324ff65ec5059906be2ad964452650bddd937987a32e34",
+				"dweb:/ipfs/QmT6Ly4awCoo9Z5qakeK855ZUn83AL1yP8Ni8Anqx7YpsY"
+			]
+		},
+		"Staking.sol": {
+			"keccak256": "0x300667b48ba61a5c7e61c99707602108ffab8b0760ed242953b70b90b1daf793",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://52fc001c6a8d1286feb20a19df86040ce2955be720fb68630989146f35ffe2ff",
+				"dweb:/ipfs/QmRVTgxhAGQGa5Wz1jTdBNPpUMkvczQN3aAuX7o5QuCwkP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,143 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\hp\\Downloads\\thc staking2\\contracts\\DMToken.sol": {
+      "lastModificationDate": 1654501663072,
+      "contentHash": "3e685322bd0f0e1ec0202915f00fed66",
+      "sourceName": "contracts/DMToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Context",
+        "DMToken",
+        "IERC20",
+        "IPancakeswapFactory",
+        "IPancakeswapPair",
+        "IPancakeswapRouter",
+        "IStaking",
+        "IStoreContract",
+        "Mintable",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\hp\\Downloads\\thc staking2\\contracts\\ERC20.sol": {
+      "lastModificationDate": 1654501663115,
+      "contentHash": "1b5123a19f42a2d3a069c545f1dd01e7",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\hp\\Downloads\\thc staking2\\contracts\\staking.sol": {
+      "lastModificationDate": 1654515670735,
+      "contentHash": "1b05cb08ae575043ef9bfb00815a00b0",
+      "sourceName": "contracts/staking.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.16 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC20",
+        "SafeMath2",
+        "TranshumanCoinStaking"
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_feeAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_communityAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_dmOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_router",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_initial",
+						"type": "uint256"
+					}
+				],
+				"name": "deplyDM",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTokens",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_dm",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_usdt",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DeployDM.sol": "DeployDM"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DMToken.sol": {
+			"keccak256": "0xab9c91eb69151d3c92c725e2341fe0d887068ee18744d590634f1522ebd4d839",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://32e8b2f6630c5e9a994fcb7285e94464a9d462e7057bf8c8e92e069cddf34ac4",
+				"dweb:/ipfs/QmQHkuLVdbnmzEAJBgyBJzX6hR6K6vYWwuzp5Uy38rXUPT"
+			]
+		},
+		"DeployDM.sol": {
+			"keccak256": "0xe9765ee7de58183ba188c3376e9cdf8663e3b2b4c1dcef9d9f4e8e25e4ddc95a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ed032f1f0ae77ea03a63d46ea07bc811cc11dc13131ed1edc0b71c96acb30a0a",
+				"dweb:/ipfs/QmYGPEysSotFjqMSQYKmJ7isQMp7jEsfPLEk2Aq35YcZcp"
+			]
+		},
+		"ERC20.sol": {
+			"keccak256": "0x61d8a65d982a75374e9b2a66f8c5155706e90b2be978d95119b59749b76032ff",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fcfadddf2b4d985252324ff65ec5059906be2ad964452650bddd937987a32e34",
+				"dweb:/ipfs/QmT6Ly4awCoo9Z5qakeK855ZUn83AL1yP8Ni8Anqx7YpsY"
+			]
+		},
+		"Store.sol": {
+			"keccak256": "0x682ee80f7472a43ff028623a462af1833ccd9b5d579d3ffa8dc092515408bde4",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://db2ee241183c7e036ec33c041cd80babab25bd1d8fd6638ace2f7f9da11e6134",
+				"dweb:/ipfs/QmbpfWxoE6aK6NCr8ZzHevbDZdnGqeXKZwhzdacmn8nfMY"
+			]
+		}
+	},
+	"version": 1
+}

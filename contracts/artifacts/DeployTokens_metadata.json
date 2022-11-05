@@ -1,0 +1,207 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_decimals",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_initial",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_token1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token2",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quota",
+						"type": "uint256"
+					}
+				],
+				"name": "addStakingPool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_dm",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_usdt",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_initial",
+						"type": "uint256"
+					}
+				],
+				"name": "deplyTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStakings",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "_stakings",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTokens",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "token",
+								"type": "address"
+							},
+							{
+								"internalType": "uint8",
+								"name": "decimals",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct DeployTokens.Token[]",
+						"name": "_tokens",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "toString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DeployOthers.sol": "DeployTokens"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DeployOthers.sol": {
+			"keccak256": "0x90425e0f6d03cdc3c05afbeb8e4b53aa6172f4a375357ed7f1806d6b4689cbc5",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://5bf790431804c32572b5bf2fe4f0d3a34a23f733af102029ac656015a380edcc",
+				"dweb:/ipfs/QmPLUjAWVkyAGQ6rsebmdDCoZZHCr1WuXvkDFgfD75PXpb"
+			]
+		},
+		"ERC20.sol": {
+			"keccak256": "0x61d8a65d982a75374e9b2a66f8c5155706e90b2be978d95119b59749b76032ff",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fcfadddf2b4d985252324ff65ec5059906be2ad964452650bddd937987a32e34",
+				"dweb:/ipfs/QmT6Ly4awCoo9Z5qakeK855ZUn83AL1yP8Ni8Anqx7YpsY"
+			]
+		},
+		"Staking.sol": {
+			"keccak256": "0x05fa19b977facd8b719769d723772cb5ea7a5f33541c3e4e548cf6655ae71b49",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c828f83376410209f3f3fa8e40cf96585df9cd4daf1b901cc86c445a18300412",
+				"dweb:/ipfs/QmdKB115SUftRHVQyeEc66JeGu9VoV6Gs2YHCFpjCsqPtF"
+			]
+		}
+	},
+	"version": 1
+}

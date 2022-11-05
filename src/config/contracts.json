@@ -1,0 +1,13 @@
+{
+    "56": {
+        "tokens": {
+            "THC": {
+                "address": "0x56083560594e314b5cdd1680ec6a493bb851bbd8",
+                "decimals": 9
+            }
+        },
+        "staking": {
+            "THC": "0x144960C94c846D30C3b4f373C348ed5f13C1f42a"
+        }
+    }
+}
